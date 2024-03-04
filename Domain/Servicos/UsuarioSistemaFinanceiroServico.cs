@@ -1,4 +1,5 @@
-﻿using Domain.Interfaces.IUsuarioSistemaFinanceiro;
+﻿using Domain.Interfaces.InterfaceServicos;
+using Domain.Interfaces.IUsuarioSistemaFinanceiro;
 using Entities.Entidades;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Servicos
 {
-    public class UsuarioSistemaFinanceiroServico
+    public class UsuarioSistemaFinanceiroServico : IUsuarioSistemaFinanceiroServico
     {
         private readonly InterfaceUsuarioSistemaFinanceiro _interfaceUsuarioSistemaFinanceiro;
 

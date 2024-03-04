@@ -1,4 +1,5 @@
 ﻿using Domain.Interfaces.IDespesa;
+using Domain.Interfaces.InterfaceServicos;
 using Entities.Entidades;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Servicos
 {
-    public class DespesaServico
+    public class DespesaServico : IDespesaServico
     {
         private readonly InterfaceDespesa _InterfaceDespesa;
         public DespesaServico(InterfaceDespesa InterfaceDespesa)

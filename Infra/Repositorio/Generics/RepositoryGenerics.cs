@@ -1,4 +1,4 @@
-﻿using Domain.Interfaces.Generic;
+﻿using Domain.Interfaces.Generics;
 using Infra.Configuracao;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Win32.SafeHandles;

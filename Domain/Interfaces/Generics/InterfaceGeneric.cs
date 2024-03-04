@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Interfaces.Generic
+namespace Domain.Interfaces.Generics
 {
     public interface InterfaceGeneric<T> where T : class
     {

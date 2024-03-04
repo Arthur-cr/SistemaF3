@@ -9,7 +9,7 @@ namespace Domain.Interfaces.InterfaceServicos
 {
     public interface IDespesaServico
     {
-        Task AdicionarCategoria(Despesa despesa);
-        Task AtualizarCategoria(Despesa despesa);
+        Task AdicionarDespesa(Despesa despesa);
+        Task AtualizarDespesa(Despesa despesa);
     }
 }
