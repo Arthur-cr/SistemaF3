@@ -40,7 +40,9 @@ namespace Infra.Configuracao
 
         public string ObterStringConexao()
         {
-            return "Data Source=Sistema;Initial Catalog=DESKTOP-6A1F82A\\SQLEXPRESS;Integrated Security=True;TrustServerCertificate=True";
+            return "Data Source=DESKTOP-6A1F82A\\SQLEXPRESS;Initial Catalog=Sistema;Integrated Security=True;TrustServerCertificate=True";
+            //return "Data Source=DESKTOP-6A1F82A\\SQLEXPRESS;Initial Catalog=Sistema;Integrated Security=False;User ID=arthurr;Password=senhadobanco;TrustServerCertificate=True";
+
         }
     }
 }
