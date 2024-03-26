@@ -36,6 +36,6 @@ namespace Entities.Entidades
         // que faz referência a uma chave primária ou única em outra tabela
         [Column(Order = 1)]
         public int IdCategoria { get; set; }
-        public virtual Categoria Categoria { get; set; }
+        //public virtual Categoria Categoria { get; set; }
     }
 }
