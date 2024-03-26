@@ -25,7 +25,7 @@ namespace WebApi.Controllers
         [Produces("application/json")]
         public async Task<object> ListarDespesasUsuario(string emailUsuario)
         {
-            return _InterfaceDespesa.ListarDespesasUsuario(emailUsuario);
+            return await _InterfaceDespesa.ListarDespesasUsuario(emailUsuario);
         }
 
         [HttpPost("/api/AdicionarDespesa")]
